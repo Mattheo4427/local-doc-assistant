@@ -1,0 +1,43 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Tooling caches and test artifacts
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter/interactive
+.ipynb_checkpoints/
+
+# Local configuration/secrets
+.env
+.env.*
+!.env.example
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Project runtime data (generated locally)
+data/
+docs/
+chroma_db/
+*.sqlite3
+
+# Open WebUI local storage exports/backups (if created in repo)
+open-webui/
+*.db
+
+# Logs
+*.log
